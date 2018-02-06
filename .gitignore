@@ -1,0 +1,9 @@
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+
+# Ignore test files
+index.html
+page.html
