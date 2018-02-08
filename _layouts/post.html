@@ -1,5 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
 
-{{ content }}
+  {% include header.html %}
+
+  <div class="content_post container text-center">
+    <div class="lg-12">
+      <h2 class="content_post_title">{{ page.title }}</h2>
+    </div>
+    <div class="lg-6">
+      <div class="poster">
+        {% if page.poster %}    
+        {% assign posterUrl = assets/img/{{ page.poster}} %}
+        <img class="img-fluid" width="70%" src="{{ "assets/img/" | append:page.poster | relative_url }}" />
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="lg-12 content_text">
+      <p>{{ content }}</p>
+    </div>
+  </div>
+
+</html>

@@ -1,0 +1,26 @@
+.header_background {
+  min-height: 400px;
+  width: 100%;
+  height: auto;
+  background-color:#8dc1ef;
+  padding-top: 3em;
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");*/
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.content_post {
+  margin-top: -200px;
+  /*padding-top:8em;*/
+}
+
+.content_post_title {
+  font-size: 28px;
+  color:white;
+  margin-bottom: 50px
+}
+
+.content_text {
+  margin: 50px;
+  font-size: 16px;
+}
