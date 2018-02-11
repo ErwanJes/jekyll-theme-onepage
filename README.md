@@ -5,7 +5,11 @@ Welcome to jekyll-theme-onepage. You'll find everything you need in order to bui
 This template is based on bootstrap (ccs, javascript) and use jQuery (javascript).
 This theme embed a fully functional website with a few files and code.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+To experiment with this code, add some content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+
+Here is what it looks like:
+
+![Screenshot](screenshot.png)
 
 ## Installation
 
