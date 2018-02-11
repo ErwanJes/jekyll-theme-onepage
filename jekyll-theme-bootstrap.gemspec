@@ -6,11 +6,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Erwan JESTIN"]
   spec.email         = ["erwan.jes@gmail.com"]
 
-  spec.summary       = "A simple Jekyll theme to bootstrap your website"
+  spec.summary       = "The easiest way to start a Jekyll website"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_example-posts)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.7"
 
