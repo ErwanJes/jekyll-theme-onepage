@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "First project"
-subtitle:  "What is your first post ?"
+title:  "Jekyll"
+subtitle:  "Create your own page with Jekyll"
 date:   2018-02-07 18:40:47 +0100
 poster: "portfolio-1.jpg"
 ---
