@@ -1,11 +1,9 @@
 # jekyll-theme-onepage
 
-Welcome to jekyll-theme-onepage. You'll find everything you need in order to built a one page website with a portfolio with Jekyll.
+Welcome to jekyll-theme-onepage. You'll find everything you need to built a one page website with a portfolio based on Jekyll. Every posts is a portfolio project instead of a blog post.
 
 This template is based on bootstrap (ccs, javascript) and use jQuery (javascript).
 This theme embed a fully functional website with a few files and code.
-
-To experiment with this code, add some content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
 Here is what it looks like:
 
@@ -27,11 +25,23 @@ theme: jekyll-theme-onepage
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
     $ gem install jekyll-theme-onepage
+    
+To correctly show a portfolio project, add into the YAML syntax of your post:
+
+```yaml
+subtitle: "Give me a subtitle"
+poster: "image.jpg"
+```
+The `poster` attribute will be used to show a thumbnail of the project in the portfolio section. This attribute needs to be the name of a existing image placed in "*assets/img/*".
+
+The `subtitle` is used to show a text below the title of the post.
+
+Some examples can be found in this them in `_example-posts/` folder.
 
 ## Usage
 
