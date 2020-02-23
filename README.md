@@ -2,7 +2,7 @@
 
 Welcome to jekyll-theme-onepage. You'll find everything you need to built a one page website with a portfolio based on Jekyll. Every posts is a portfolio project instead of a blog post.
 
-This template is based on bootstrap (ccs, javascript) and use jQuery (javascript).
+This template is based on bootstrap (css, javascript) and use jQuery (javascript).
 This theme embed a fully functional website with a few files and code.
 
 Here is what it looks like:
